@@ -1,0 +1,1 @@
+g++ -m32 -std=c++17 -Iinclude -s -g  src/WAVFile.cpp src/AVRMem.cpp src/HexFile.cpp src/OutSignal.cpp src/main.cpp lib/libsndfile.a -o tapeavr
